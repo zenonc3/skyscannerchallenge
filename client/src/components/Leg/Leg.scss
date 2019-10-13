@@ -1,0 +1,49 @@
+@import '~bpk-mixins';
+
+.Leg {
+  &_container {
+    padding: $bpk-spacing-xs;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  &_logo {
+    display: flex;
+    flex-basis: 50px;
+    height: 50px;
+    flex-direction: column;
+    border-radius: $bpk-border-radius-sm;
+  }
+
+  &_origin {
+    display: flex;
+    flex-basis: 50px;
+    height: 50px;
+    flex-direction: column;
+    margin-left: $bpk-spacing-xs;
+  }
+
+  &_destination {
+    display: flex;
+    flex-basis: 50px;
+    height: 50px;
+    flex-direction: column;
+    margin-left: $bpk-spacing-xs;
+  }
+
+  &_meta {
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  &_arrow {
+    display: flex;
+    align-items: center;
+    height: 50px;
+  }
+}
