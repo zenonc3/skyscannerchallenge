@@ -3,5 +3,7 @@
 .App {
   &__main {
     padding: $bpk-spacing-sm;
+    min-height: 100vh;
+    background-color: grayscale($color: #EEEEEE);
   }
 }
