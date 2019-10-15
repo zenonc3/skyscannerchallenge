@@ -6,12 +6,12 @@ import STYLES from './TimeLocation.scss';
 const c = className => STYLES[className] || 'UNKNOWN';
 
 const TimeLocation = ({ time, location }) => (
-  <div className={c('TimeLocation_container')}>
+  <div className={c('TimeLocation__container')}>
     <div>
-      <BpkText className={c('TimeLocation_time')}> {time} </BpkText>
+      <BpkText className={c('TimeLocation__time')}> {time} </BpkText>
     </div>
     <div>
-      <BpkText className={c('TimeLocation_location')} bold> {location} </BpkText>
+      <BpkText className={c('TimeLocation__location')} bold> {location} </BpkText>
     </div>
   </div>
 );

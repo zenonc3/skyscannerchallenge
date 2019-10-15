@@ -1,18 +1,18 @@
 @import '~bpk-mixins';
 
 .TimeLocation {
-    &_time {
-      height: 25px;
-      width: 25px;
-    }
-  
-    &_location {
-       height: 25px;
-       width: 25px;
-       color: grayscale($color: #777777);
-    }
-
-    &_container {
-      padding-left: 2px;
-    }
+  &__time {
+    width: 25pt;
+    height: 25pt;
   }
+
+  &__location {
+    width: 25pt;
+    height: 25pt;
+    color: grayscale($color: #777);
+  }
+
+  &__container {
+    padding-left: 2pt;
+  }
+}

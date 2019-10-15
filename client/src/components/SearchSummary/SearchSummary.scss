@@ -1,10 +1,10 @@
 @import '~bpk-mixins';
 
 .SearchSummary {
-  &_container {
-    padding: $bpk-spacing-sm;
+  &__container {
     width: 100%;
+    padding: $bpk-spacing-sm;
     background-color: rgb(7, 112, 227);
-    color: white;
+    color: grayscale($color: #fff);
   }
 }

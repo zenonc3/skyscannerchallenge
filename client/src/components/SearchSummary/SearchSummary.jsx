@@ -6,8 +6,8 @@ const c = className => STYLES[className] || 'UNKNOWN';
 
 const SearchSummary = () =>
   (
-    <div className={c('SearchSummary_container')}>
-      <div className={c('SearchSummary_text')}>
+    <div className={c('SearchSummary__container')}>
+      <div>
         <BpkText textStyle="xl">LOC</BpkText>
         <BpkText textStyle="xl"> → </BpkText>
         <BpkText textStyle="xl">LOC</BpkText>

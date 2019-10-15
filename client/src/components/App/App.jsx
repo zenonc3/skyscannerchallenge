@@ -2,7 +2,7 @@ import React from 'react';
 
 import STYLES from './App.scss';
 import Header from './../Header';
-import ItenaryView from '../ItineraryView';
+import ItineraryView from '../ItineraryView';
 import SearchSummary from '../SearchSummary';
 
 const c = className => STYLES[className] || 'UNKNOWN';
@@ -42,7 +42,7 @@ class App extends React.Component {
         <Header />
         <SearchSummary />
         <main className={c('App__main')}>
-          <ItenaryView itineraries={itineraries} />
+          <ItineraryView itineraries={itineraries} />
         </main>
       </div>
     );

@@ -1,31 +1,30 @@
 @import '~bpk-mixins';
 
 .Pricing {
-  &_container {
+  &__container {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     width: 100%;
+    flex-flow: wrap row;
   }
 
-  &_detail {
+  &__detail {
     display: flex;
     flex-direction: column;
   }
 
-  &_select {
+  &__select {
     display: flex;
     flex-direction: column;
-    flex: 1;
+    justify-content: center;
     align-items: flex-end;
-    justify-content: center; 
+    flex: 1;
   }
 
-  &_price {
-    color: grayscale($color: #000000)
+  &__price {
+    color: grayscale($color: #000);
   }
-    
-  &_provider {
-    color: grayscale($color: #999999)
+
+  &__provider {
+    color: grayscale($color: #999);
   }
 }

@@ -10,12 +10,12 @@ const c = className => STYLES[className] || 'UNKNOWN';
 const Leg = ({
   origin, destination, departure, arrival, duration, numStops, carrier,
 }) => (
-  <div className={c('Leg_container')} >
-    <span><img src={`https://logos.skyscnr.com/images/airlines/favicon/${carrier}.png`} className={c('Leg_logo')} alt="airline logo" /></span>
-    <div className={c('Leg_origin')}><TimeLocation time={departure} location={origin} /></div>
-    <div className={c('Leg_arrow')}><BpkSmallAircraftIcon /></div>
-    <div className={c('Leg_destination')}><TimeLocation time={arrival} location={destination} /></div>
-    <div className={c('Leg_meta')}><LegMeta numStops={numStops} duration={duration} /></div>
+  <div className={c('Leg___container')} >
+    <span><img src={`https://logos.skyscnr.com/images/airlines/favicon/${carrier}.png`} className={c('Leg__logo')} alt="airline logo" /></span>
+    <div className={c('Leg__origin')}><TimeLocation time={departure} location={origin} /></div>
+    <div className={c('Leg__arrow')}><BpkSmallAircraftIcon /></div>
+    <div className={c('Leg__destination')}><TimeLocation time={arrival} location={destination} /></div>
+    <div className={c('Leg__meta')}><LegMeta numStops={numStops} duration={duration} /></div>
   </div>
 );
 
