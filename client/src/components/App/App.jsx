@@ -2,12 +2,19 @@ import React from 'react';
 
 import STYLES from './App.scss';
 import Header from './../Header';
-import Itenary from '../Itenary';
+import ItenaryView from '../ItineraryView';
 import SearchSummary from '../SearchSummary';
 
 const c = className => STYLES[className] || 'UNKNOWN';
 
 class App extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      itineraries: [],
+    };
+  }
+
   componentDidMount() {
     const url = new URL('http://localhost:4000/api/search');
     url.searchParams.append('origin', 'lhr');
@@ -21,17 +28,21 @@ class App extends React.Component {
       .then((results) => {
         console.log('TODO: something with these results:');
         console.log(results);
+        this.setState({
+          itineraries: results.itineraries,
+        });
       })
       .catch(console.error);
   }
 
   render() {
+    const { itineraries } = this.state;
     return (
       <div className={c('App')}>
         <Header />
         <SearchSummary />
         <main className={c('App__main')}>
-          <Itenary />
+          <ItenaryView itineraries={itineraries} />
         </main>
       </div>
     );
