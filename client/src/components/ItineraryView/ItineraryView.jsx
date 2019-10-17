@@ -8,7 +8,7 @@ const ItineraryView = ({ itineraries }) => {
   itineraries.forEach((itinerary) => {
     itineraryCards.push(<Itinerary key={itinerary.pricing.bookingUrl} {...itinerary} />);
   });
-  return itineraryCards.slice(0, 50);
+  return itineraryCards.length > 100 ? itineraryCards.slice(0, 100) : itineraryCards;
 };
 
 ItineraryView.propTypes = {
