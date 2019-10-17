@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Leg Meta should render correctly 1`] = `
+<Unknown>
+  <BpkText
+    bold={false}
+    className={null}
+    tagName="p"
+    textStyle="sm"
+  >
+    0h 20
+  </BpkText>
+  <BpkText
+    bold={false}
+    className={null}
+    tagName="p"
+    textStyle="sm"
+  >
+    2 stops
+  </BpkText>
+</Unknown>
+`;

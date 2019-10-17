@@ -4,18 +4,15 @@ import Itinerary from './../Itinerary';
 
 
 const ItineraryView = ({ itineraries }) => {
-  console.log(itineraries.length);
-  console.log('view');
   const itineraryCards = [];
   itineraries.forEach((itinerary) => {
-    console.log(itinerary);
     itineraryCards.push(<Itinerary key={itinerary.pricing.bookingUrl} {...itinerary} />);
   });
   return itineraryCards.slice(0, 50);
 };
 
 ItineraryView.propTypes = {
-  itineraries: PropTypes.arrayOf(Itinerary),
+  itineraries: PropTypes.arrayOf(Itinerary).isRequired,
 };
 
 export default ItineraryView;

@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pricing should render correctly 1`] = `
+<div
+  className="ActionBar__container"
+>
+  <BpkButton
+    blank={false}
+    className="ActionBar__filter"
+    destructive={false}
+    disabled={false}
+    featured={false}
+    href={null}
+    iconOnly={false}
+    large={false}
+    link={true}
+    onClick={null}
+    outline={false}
+    rel={null}
+    secondary={false}
+    submit={false}
+  >
+    Filter
+  </BpkButton>
+  <BpkButton
+    blank={false}
+    className="ActionBar__sort"
+    destructive={false}
+    disabled={false}
+    featured={false}
+    href={null}
+    iconOnly={false}
+    large={false}
+    link={true}
+    onClick={null}
+    outline={false}
+    rel={null}
+    secondary={false}
+    submit={false}
+  >
+    Sort
+  </BpkButton>
+  <div
+    className="ActionBar__alert"
+  >
+    <BpkButton
+      blank={false}
+      className={null}
+      destructive={false}
+      disabled={false}
+      featured={false}
+      href={null}
+      iconOnly={false}
+      large={false}
+      link={true}
+      onClick={null}
+      outline={false}
+      rel={null}
+      secondary={false}
+      submit={false}
+    >
+      <withAlignment(Component) />
+       Price Alerts
+    </BpkButton>
+  </div>
+</div>
+`;

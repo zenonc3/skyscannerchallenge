@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pricing should render correctly 1`] = `
+<div
+  className="Pricing__container"
+>
+  <div
+    className="Pricing__detail"
+  >
+    <BpkText
+      bold={true}
+      className="Pricing__price"
+      tagName="p"
+      textStyle="lg"
+    >
+      £
+      30
+    </BpkText>
+    <BpkText
+      bold={false}
+      className="Pricing__provider"
+      tagName="p"
+      textStyle="sm"
+    >
+      myagent
+    </BpkText>
+  </div>
+  <div
+    className="Pricing__select"
+  >
+    <BpkButton
+      blank={false}
+      className={null}
+      destructive={false}
+      disabled={false}
+      featured={false}
+      href={null}
+      iconOnly={false}
+      large={false}
+      link={false}
+      onClick={[Function]}
+      outline={false}
+      rel={null}
+      secondary={false}
+      submit={false}
+    >
+      Select
+    </BpkButton>
+  </div>
+</div>
+`;

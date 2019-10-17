@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Itinerary should render correctly 1`] = `
+<div
+  className="Leg__container"
+>
+  <span>
+    <img
+      alt="airline logo"
+      className="Leg__logo"
+      src="https://logos.skyscnr.com/images/airlines/favicon/.png"
+    />
+  </span>
+  <div
+    className="Leg__origin"
+  >
+    <TimeLocation
+      location=""
+      time=""
+    />
+  </div>
+  <div
+    className="Leg__arrow"
+  >
+    <BpkText
+      bold={false}
+      className={null}
+      tagName="span"
+      textStyle="base"
+    >
+      →
+    </BpkText>
+  </div>
+  <div
+    className="Leg__destination"
+  >
+    <TimeLocation
+      location=""
+      time=""
+    />
+  </div>
+  <div
+    className="Leg__meta"
+  >
+    <LegMeta
+      duration={10}
+      numStops={1}
+    />
+  </div>
+</div>
+`;

@@ -74,7 +74,6 @@ function transform(results) {
 }
 app.get('/api/search', async (req, res) => {
   try {
-    // let results;
     const queryParams = req.query;
     const results = await livePricing.search({
       originPlace: queryParams.origin,

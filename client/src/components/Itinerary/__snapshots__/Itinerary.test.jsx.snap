@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Itinerary should render correctly 1`] = `
+<div
+  className="Itinerary__container"
+>
+  <BpkTicket
+    className={null}
+    href={null}
+    padded={true}
+    stub={
+      <Pricing
+        agent=""
+        bookingUrl=""
+        price={123}
+      />
+    }
+    stubClassName={null}
+    stubProps={Object {}}
+    vertical={true}
+    withNotches={true}
+  >
+    <Leg
+      arrival=""
+      carrier=""
+      departure=""
+      destination=""
+      duration={10}
+      numStops={1}
+      origin=""
+    />
+    <Leg
+      arrival=""
+      carrier=""
+      departure=""
+      destination=""
+      duration={10}
+      numStops={1}
+      origin=""
+    />
+  </BpkTicket>
+</div>
+`;

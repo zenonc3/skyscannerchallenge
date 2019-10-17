@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search Summary should render correctly 1`] = `
+<div
+  className="SearchSummary__container"
+>
+  <div>
+    <BpkText
+      bold={false}
+      className={null}
+      tagName="span"
+      textStyle="xl"
+    >
+      a
+    </BpkText>
+    <BpkText
+      bold={false}
+      className={null}
+      tagName="span"
+      textStyle="xl"
+    >
+       → 
+    </BpkText>
+    <BpkText
+      bold={false}
+      className={null}
+      tagName="span"
+      textStyle="xl"
+    >
+      b
+    </BpkText>
+  </div>
+  <div>
+    <BpkText
+      bold={false}
+      className={null}
+      tagName="span"
+      textStyle="sm"
+    >
+      2
+       traveller(s), 
+      eco
+    </BpkText>
+  </div>
+</div>
+`;

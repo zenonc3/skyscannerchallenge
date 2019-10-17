@@ -6,4 +6,9 @@
     padding: $bpk-spacing-sm;
     background-color: grayscale($color: #eee);
   }
+
+  &__spinner {
+    margin-top: 25vh;
+    text-align: center;
+  }
 }

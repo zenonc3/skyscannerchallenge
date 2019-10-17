@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TimeLocation should render correctly 1`] = `
+<div
+  className="TimeLocation__container"
+>
+  <div>
+    <BpkText
+      bold={false}
+      className="TimeLocation__time"
+      tagName="span"
+      textStyle="base"
+    >
+       
+      12:55
+       
+    </BpkText>
+  </div>
+  <div>
+    <BpkText
+      bold={true}
+      className="TimeLocation__location"
+      tagName="span"
+      textStyle="base"
+    >
+       
+      EDI
+       
+    </BpkText>
+  </div>
+</div>
+`;

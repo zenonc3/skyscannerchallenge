@@ -1,5 +1,5 @@
+import BpkLargeMenuIcon from 'bpk-component-icon/lg/menu';
 import React from 'react';
-
 import logo from './logo.svg';
 import STYLES from './Header.scss';
 
@@ -11,7 +11,7 @@ const Header = () => (
       <span className={c('Header__hidden-text')}>Skyscanner</span>
       <img className={c('Header__logo-image')} alt="Skyscanner" src={logo} />
     </a>
-    {/* TODO burger menu icon */}
+    <BpkLargeMenuIcon className={c('Header__menu')} />
   </header>
 );
 

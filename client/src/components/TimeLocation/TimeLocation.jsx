@@ -1,3 +1,4 @@
+import moment from 'moment';
 import PropTypes from 'prop-types';
 import BpkText from 'bpk-component-text';
 import React from 'react';
@@ -8,7 +9,7 @@ const c = className => STYLES[className] || 'UNKNOWN';
 const TimeLocation = ({ time, location }) => (
   <div className={c('TimeLocation__container')}>
     <div>
-      <BpkText className={c('TimeLocation__time')}> {time} </BpkText>
+      <BpkText className={c('TimeLocation__time')}> {moment(time).format('hh:mm')} </BpkText>
     </div>
     <div>
       <BpkText className={c('TimeLocation__location')} bold> {location} </BpkText>

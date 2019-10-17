@@ -1,0 +1,30 @@
+@import '~bpk-mixins';
+
+.ActionBar {
+  &__container {
+    display: flex;
+    width: 100%;
+    flex-flow: wrap row;
+  }
+
+  &__filter {
+    display: flex;
+    padding: $bpk-spacing-sm;
+    flex-direction: column;
+  }
+
+  &__sort {
+    display: flex;
+    padding: $bpk-spacing-sm;
+    flex-direction: column;
+  }
+
+  &__alert {
+    display: flex;
+    padding: $bpk-spacing-sm;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    flex: 1;
+  }
+}

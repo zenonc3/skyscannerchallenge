@@ -5,17 +5,34 @@ exports[`App should render correctly 1`] = `
   className="App"
 >
   <Header />
+  <SearchSummary
+    cabinClass="Economy"
+    destination="EDI"
+    numTravellers={2}
+    origin="LHR"
+  />
+  <ActionBar />
   <main
     className="App__main"
   >
-    <BpkText
-      bold={false}
-      className={null}
-      tagName="p"
-      textStyle="base"
+    <div
+      className="App__spinner"
     >
-      Over to you...
-    </BpkText>
+      <BpkExtraLargeSpinner
+        className={null}
+        type="dark"
+      />
+       
+      <BpkText
+        bold={false}
+        className={null}
+        tagName="p"
+        textStyle="base"
+      >
+        This could take a few seconds...
+      </BpkText>
+       
+    </div>
   </main>
 </div>
 `;

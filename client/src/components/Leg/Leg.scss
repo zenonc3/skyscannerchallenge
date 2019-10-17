@@ -10,26 +10,28 @@
 
   &__logo {
     display: flex;
-    height: 50pt;
+    height: 35pt;
     flex-direction: column;
-    flex-basis: 50pt;
+    flex-basis: 35pt;
     border-radius: $bpk-border-radius-sm;
   }
 
   &__origin {
     display: flex;
-    height: 50pt;
+    height: 35pt;
     margin-left: $bpk-spacing-xs;
     flex-direction: column;
-    flex-basis: 50pt;
+    align-content: center;
+    flex-basis: 35pt;
   }
 
   &__destination {
     display: flex;
-    height: 50pt;
+    height: 35pt;
     margin-left: $bpk-spacing-xs;
     flex-direction: column;
-    flex-basis: 50pt;
+    align-content: center;
+    flex-basis: 35pt;
   }
 
   &__meta {
@@ -42,7 +44,7 @@
 
   &__arrow {
     display: flex;
-    height: 50pt;
+    height: 35pt;
     align-items: center;
   }
 }
