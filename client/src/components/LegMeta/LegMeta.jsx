@@ -1,7 +1,9 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 import BpkText from 'bpk-component-text/src/BpkText';
+import STYLES from './LegMeta.scss';
 
+const c = className => STYLES[className] || 'UNKNOWN';
 
 const formatNumStops = (numStops) => {
   switch (numStops) {
@@ -23,7 +25,7 @@ const formatDuration = (durationMinutes) => {
 const LegMeta = ({ duration, numStops }) => (
   <React.Fragment>
     <BpkText tagName="p" textStyle="sm">{formatDuration(duration)}</BpkText>
-    <BpkText tagName="p" textStyle="sm">{formatNumStops(numStops)}</BpkText>
+    <BpkText className={c('LegMeta__stops')}tagName="p" textStyle="sm">{formatNumStops(numStops)}</BpkText>
   </React.Fragment>
 );
 

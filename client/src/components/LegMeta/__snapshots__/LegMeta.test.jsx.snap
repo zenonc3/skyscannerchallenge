@@ -12,7 +12,7 @@ exports[`Leg Meta should render correctly 1`] = `
   </BpkText>
   <BpkText
     bold={false}
-    className={null}
+    className="LegMeta__stops"
     tagName="p"
     textStyle="sm"
   >
