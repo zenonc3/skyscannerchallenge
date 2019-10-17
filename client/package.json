@@ -13,18 +13,21 @@
     "lint": "npm run lint:js && npm run lint:scss"
   },
   "devDependencies": {
+    "react-test-renderer": "^16.3.1"
+  },
+  "proxy": "http://localhost:4000",
+  "dependencies": {
     "backpack-react-scripts": "^5.1.1",
     "bpk-component-icon": "^5.0.4",
+    "bpk-component-spinner": "^3.0.4",
     "bpk-component-text": "^1.0.54",
     "bpk-mixins": "^17.6.1",
     "bpk-stylesheets": "^3.2.100",
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
-    "react-test-renderer": "^16.3.1"
-  },
-  "proxy": "http://localhost:4000",
-  "dependencies": {
     "bpk-component-button": "^3.0.4",
-    "bpk-component-ticket": "^3.0.4"
+    "bpk-component-ticket": "^3.0.4",
+    "moment": "^2.24.0",
+    "prop-types": "^15.7.2"
   }
 }
