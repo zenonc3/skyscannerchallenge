@@ -19,6 +19,6 @@
   },
   "dependencies": {
     "express": "^4.16.3",
-    "node-fetch": "^2.1.2"
+    "node-fetch": "^2.6.1"
   }
 }
